@@ -40,7 +40,7 @@ const index: FC<CardProps> = ({ project, i, progress, range, targetScale }) => {
                     <div className={style.imageContainer}>
                     <motion.div style={{scale: imageScale}} className={style.inner}>
                         <Image
-                            src={`/images/${src}`}
+                            src={`/scroll-cards/images/${src}`}
                             fill={true}
                             alt="Image"
                         />
